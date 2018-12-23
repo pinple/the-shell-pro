@@ -1,6 +1,6 @@
 {
     "name": "the-shell",
-    "description" : "Simple chinese theme for Ghost. Pure CSS. Web Safe fonts.",
+    "description" : "Theme for Ghost. Pure CSS. Web Safe fonts.",
     "demo": "https://demo.ghost.io",
     "version": "0.0.1",
     "engines": {
@@ -29,8 +29,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Neulana/the-shell-zh.git"
+        "url": "https://github.com/Neulana/the-shell-pro.git"
     },
-    "bugs": "https://github.com/Neulana/the-shell-zh/issues",
-    "contributors": "https://github.com/Neulana/the-shell-zh/graphs/contributors"
+    "bugs": "https://github.com/Neulana/the-shell-pro/issues",
+    "contributors": "https://github.com/Neulana/the-shell-pro/graphs/contributors"
 }
