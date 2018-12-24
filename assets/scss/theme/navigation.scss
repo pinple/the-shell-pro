@@ -1,0 +1,19 @@
+.site-nav {
+    display: flex;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 300;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: 40px;
+    font-size: 1.2rem;
+}
+
+.nav {
+    display: flex;
+    margin: 0 0 0 -12px;
+    padding: 0;
+    list-style: none;
+}
