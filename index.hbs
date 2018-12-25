@@ -2,7 +2,9 @@
 
 {{! The comment above "< default" means - insert everything in this file into
     the {body} of the default.hbs template, which contains our header/footer. }}
-
+{{#if @blog.navigation}}
+    {{navigation}}
+{{/if}}
 {{! The big featured header on the homepage, with the site logo and description }}
 <header id="site-head" {{#if @blog.cover_image}}style="background-image: url({{@blog.cover_image}})"{{/if}}>
     <div class="vertical animated bounceInDown">
@@ -11,11 +13,6 @@
             {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
             <h4 class="blog-description">{{@blog.description}}</h4>
-            <nav class="site-nav">
-            {{#if @blog.navigation}}
-                {{navigation}}
-            {{/if}}
-            </nav>
         </div>
     </div>
 </header>
