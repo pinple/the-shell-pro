@@ -32,5 +32,10 @@
         "url": "https://github.com/Neulana/the-shell-pro.git"
     },
     "bugs": "https://github.com/Neulana/the-shell-pro/issues",
-    "contributors": "https://github.com/Neulana/the-shell-pro/graphs/contributors"
+    "contributors": "https://github.com/Neulana/the-shell-pro/graphs/contributors",
+    "devDependencies": {
+        "gulp": "^4.0.0",
+        "gulp-sass": "^4.0.2",
+        "node-sass": "^4.11.0"
+    }
 }
