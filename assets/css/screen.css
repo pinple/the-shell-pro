@@ -426,7 +426,7 @@ button, input, select, textarea {
   margin-top: 0;
   border-bottom: none;
   padding-bottom: 0;
-  overflow-y: hidden; }
+  overflow-y: -webkit-paged-y; }
   .post-template .post:after {
     display: none; }
   .post-template .post-header {
