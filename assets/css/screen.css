@@ -1,6 +1,6 @@
-@import url(normalize.css);
 @import url(bootstrap.min.css);
 @import url(hux-blog.min.css);
+@import url(normalize.css);
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
    ========================================================================== */
@@ -330,7 +330,7 @@ button, input, select, textarea {
     background: rgba(204, 31, 39, 0.5); }
   #blog-logo img {
     display: block;
-    max-height: 100px;
+    max-height: 90px;
     width: auto;
     line-height: 0;
     border-radius: 50%; }
@@ -425,7 +425,8 @@ button, input, select, textarea {
 .post-template .post {
   margin-top: 0;
   border-bottom: none;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  overflow-y: hidden; }
   .post-template .post:after {
     display: none; }
   .post-template .post-header {
@@ -642,7 +643,7 @@ button, input, select, textarea {
    ========================================================================== */
 @media only screen and (max-width: 500px) {
   #blog-logo img {
-    max-height: 80px; }
+    max-height: 70px; }
   #blog-logo {
     width: 80px; }
   #blog-logo:before {
