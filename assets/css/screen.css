@@ -11,6 +11,13 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 .icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
   font-family: 'icons';
   speak: none;
@@ -40,6 +47,33 @@
 
 .icon-facebook:before {
   content: "\e004"; }
+
+.icomoon-zhihu, .icomoon-weibo, .icomoon-douban, .icomoon-github {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none; }
+
+.icomoon-zhihu:before {
+  content: "\e900";
+  color: #c3cdd2; }
+
+.icomoon-weibo:before {
+  content: "\e901";
+  color: #c3cdd2; }
+
+.icomoon-douban:before {
+  content: "\e902";
+  color: #c3cdd2; }
+
+.icomoon-github:before {
+  content: "\e903";
+  color: #c3cdd2; }
 
 /* ==========================================================================
    2. General - Setting up some base styles
@@ -454,17 +488,17 @@ button, input, select, textarea {
     line-height: 1.6em; }
   .post-footer .author {
     margin-right: 180px; }
-  .post-footer .share {
+  .post-footer .social {
     position: absolute;
     top: 4rem;
     right: 0;
     width: 140px; }
-    .post-footer .share a {
+    .post-footer .social a {
       font-size: 1.8rem;
       display: inline-block;
       margin: 1.4rem 1.6rem 1.6rem 0;
       color: #BBC7CC; }
-      .post-footer .share a:hover {
+      .post-footer .social a:hover {
         color: #50585D; }
 
 /* ==========================================================================
@@ -689,10 +723,10 @@ button, input, select, textarea {
     margin: 0 0 2rem 0;
     padding: 0 0 1.6rem 0;
     border-bottom: #424650 1px dashed; }
-  .post-footer .share {
+  .post-footer .social {
     position: static;
     width: auto; }
-  .post-footer .share a {
+  .post-footer .social a {
     margin: 1.4rem 0.8rem 0 0.8rem; }
   .older-posts,
   .newer-posts {
