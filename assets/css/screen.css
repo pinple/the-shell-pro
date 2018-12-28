@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-top: 0;
   letter-spacing: 2px;
+  font-family: "Courier New", Courier, monospace;
   font-weight: normal; }
 
 h1 a {
@@ -123,26 +124,24 @@ h6 a {
   color: #739a99; }
 
 h1 {
-  font-size: 5rem;
-  line-height: 1.2em;
-  text-indent: -3px; }
+  font-size: 2.4rem;
+  line-height: 1.2em; }
 
 h2 {
-  font-size: 4rem;
-  line-height: 1.2em;
-  text-indent: -2px; }
+  font-size: 2.2rem;
+  line-height: 1.2em; }
 
 h3 {
-  font-size: 3.5rem; }
+  font-size: 2.0rem; }
 
 h4 {
-  font-size: 3rem; }
+  font-size: 1.8rem; }
 
 h5 {
-  font-size: 2.5rem; }
+  font-size: 1.6rem; }
 
 h6 {
-  font-size: 2rem; }
+  font-size: 1.6rem; }
 
 a {
   color: #bf6165;
@@ -151,6 +150,7 @@ a {
     color: #a3be8c; }
 
 p, ul, ol {
+  font-size: 1.4rem;
   margin: 1.6em 0; }
 
 ol ol, ul ul,
@@ -338,7 +338,7 @@ button, input, select, textarea {
   border-radius: 50%;
   overflow: hidden;
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   border: 5px solid #bf6165; }
   #blog-logo:before {
     width: 100px;
