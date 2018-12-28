@@ -338,7 +338,7 @@ button, input, select, textarea {
   border-radius: 50%;
   overflow: hidden;
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
   border: 5px solid #bf6165; }
   #blog-logo:before {
     width: 100px;
@@ -369,7 +369,7 @@ button, input, select, textarea {
     line-height: 0;
     border-radius: 50%; }
   #blog-logo-title {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0 !important;
     font-size: 5rem;
     letter-spacing: -1px; }
   #blog-logo-description {
@@ -648,7 +648,7 @@ button, input, select, textarea {
     min-height: 240px;
     padding: 15% 0; }
   .blog-title {
-    font-size: 4rem;
+    font-size: 2.4rem;
     letter-spacing: -1px; }
   .blog-description {
     font-size: 1.7rem;
@@ -701,7 +701,7 @@ button, input, select, textarea {
   #site-head {
     padding: 10% 0; }
   .blog-title {
-    font-size: 3rem; }
+    font-size: 2.4rem; }
   .blog-description {
     font-size: 1.5rem; }
   h1 {

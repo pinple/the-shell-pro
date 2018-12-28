@@ -19,7 +19,7 @@
         border-radius: 50%;
         overflow: hidden;
         display: block;
-        margin: 10px auto;
+        margin: 0 auto;
         border: 5px solid $contessa;
         &:before {  
             width: 100px;
@@ -53,7 +53,7 @@
             border-radius: 50%;
         }
         &-title {
-            margin: 10px 0 10px 0;
+            margin: 10px 0 10px 0 !important;
             font-size: 5rem;
             letter-spacing: -1px;
         }
