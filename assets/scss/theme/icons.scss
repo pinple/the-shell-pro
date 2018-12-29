@@ -38,7 +38,7 @@
     &-ghost {
         @extend %icon;
         &-text {
-            font-family: "Courier New", Courier, monospace;
+            font-family: "Menlo", "Meslo LG", monospace;
         }
         &:before {
             content: "\e000";

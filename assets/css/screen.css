@@ -30,7 +30,7 @@
   text-decoration: none; }
 
 .icon-ghost-text {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Menlo", "Meslo LG", monospace; }
 
 .icon-ghost:before {
   content: "\e000"; }
@@ -86,7 +86,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Menlo", "Meslo LG", monospace;
   font-size: 2.0rem;
   line-height: 1.6em;
   color: #B2B6BD;
@@ -102,26 +102,27 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-top: 0;
   letter-spacing: 2px;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: normal; }
+  font-family: "Menlo", "Meslo LG", monospace;
+  font-weight: normal;
+  color: #9aedfe; }
 
 h1 a {
-  color: #739a99; }
+  color: #2bbc8a; }
 
 h2 a {
-  color: #739a99; }
+  color: #2bbc8a; }
 
 h3 a {
-  color: #739a99; }
+  color: #2bbc8a; }
 
 h4 a {
-  color: #739a99; }
+  color: #2bbc8a; }
 
 h5 a {
-  color: #739a99; }
+  color: #2bbc8a; }
 
 h6 a {
-  color: #739a99; }
+  color: #2bbc8a; }
 
 h1 {
   font-size: 2.4rem;
@@ -208,7 +209,7 @@ mark {
 code, tt {
   padding: 1px 3px;
   /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Menlo", "Meslo LG", monospace;
   font-size: 0.75em;
   white-space: pre;
   border: 1px solid #424a5a;
@@ -223,7 +224,7 @@ pre {
   width: 100%;
   padding: 10px;
   /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Menlo", "Meslo LG", monospace;
   font-size: 1.4rem;
   white-space: pre;
   overflow: auto;
@@ -338,7 +339,7 @@ button, input, select, textarea {
   border-radius: 50%;
   overflow: hidden;
   display: block;
-  margin: 0 auto;
+  margin: 16.08px auto;
   border: 5px solid #bf6165; }
   #blog-logo:before {
     width: 100px;
@@ -369,7 +370,7 @@ button, input, select, textarea {
     line-height: 0;
     border-radius: 50%; }
   #blog-logo-title {
-    margin: 10px 0 10px 0 !important;
+    margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px; }
   #blog-logo-description {
@@ -399,23 +400,23 @@ button, input, select, textarea {
   hyphens: auto; }
   .post-title {
     margin: 0;
-    color: #739a99; }
+    color: #2bbc8a; }
     .post-title a {
       text-decoration: none; }
   .post-excerpt p {
     margin: 1.6rem 0 0 0;
-    font-size: 0.9em;
+    font-size: 1.4rem;
     line-height: 1.6em; }
   .post-meta {
     display: inline-block;
     margin: 0 0 5px 0;
     font-size: 1.5rem;
-    color: #846d8f; }
+    color: #5AC8FA; }
   .post a {
-    color: #846d8f;
+    color: #2bbc8a;
     text-decoration: none; }
     .post a:hover {
-      text-decoration: underline; }
+      color: #5af78e; }
 
 .user-meta {
   position: relative;
@@ -467,7 +468,7 @@ button, input, select, textarea {
     padding: 60px 0; }
 
 .post-header #blog-logo:before {
-  margin: 60px auto; }
+  margin: 76.08px auto; }
 
 .post-content img {
   display: block;
@@ -513,7 +514,7 @@ button, input, select, textarea {
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Menlo", "Meslo LG", monospace;
   font-size: 1.3rem;
   color: #9EABB3;
   text-align: center; }
