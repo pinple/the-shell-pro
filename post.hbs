@@ -4,7 +4,9 @@
     the {body} of the default.hbs template, which contains our header/footer. }}
 
 <main class="content" role="main">
-
+    {{#if @blog.navigation}}
+        {{navigation}}
+    {{/if}}
     <article class="{{post_class}}">
 
         {{! Each post has the blog logo at the top, with a link back to the home page }}
