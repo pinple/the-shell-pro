@@ -171,7 +171,7 @@ blockquote {
   box-sizing: border-box;
   margin: 1.6em 0 1.6em -2.2em;
   padding: 0 0 0 1.6em;
-  border-left: #4f586b 0.4em solid; }
+  border-left: #2c2c26 0.4em solid; }
   blockquote p {
     margin: 0.8em 0;
     font-style: italic; }
@@ -213,7 +213,7 @@ code, tt {
   font-size: 0.75em;
   white-space: pre;
   border: 1px solid #424a5a;
-  background: #4f586b;
+  background: #2c2c26;
   border-radius: 2px; }
 
 pre {
@@ -228,7 +228,7 @@ pre {
   font-size: 1.4rem;
   white-space: pre;
   overflow: auto;
-  background: #4f586b;
+  background: #2c2c26;
   border-radius: 3px; }
 
 pre code, tt {
@@ -236,6 +236,7 @@ pre code, tt {
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
   background: transparent;
+  color: deeppink;
   border: none;
   padding: 0; }
 
@@ -287,14 +288,14 @@ table table table {
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-  background-color: #4f586b; }
+  background-color: #2c2c26; }
 
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
   background: transparent; }
 
 button, input, select, textarea {
-  background: #4f586b;
+  background: #2c2c26;
   border: 1px solid #424a5a;
   color: #B2B6BD;
   outline-color: #bf6165; }
