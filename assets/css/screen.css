@@ -169,7 +169,7 @@ hr {
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 1.6em 0 1.6em -2.2em;
+  margin: 1.6em 0 1.6em -2em;
   padding: 0 0 0 1.6em;
   border-left: #2c2c26 0.4em solid; }
   blockquote p {
@@ -546,7 +546,8 @@ button, input, select, textarea {
 
 .older-posts:hover,
 .newer-posts:hover {
-  border-color: #9EABB3; }
+  border-color: #9EABB3;
+  text-decoration: none; }
 
 /* ==========================================================================
    8. Footer - The bottom of every page
