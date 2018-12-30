@@ -5,46 +5,43 @@
 {{#if @blog.navigation}}
     {{navigation}}
 {{/if}}
-{{! The big featured header on the homepage, with the site logo and description }}
-<header id="site-head" {{#if @blog.cover_image}}style="background-image: url({{@blog.cover_image}})"{{/if}}>
-    <div class="vertical animated bounceInDown">
-        <div id="site-head-content" class="inner">
-
-            {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-            <h1 class="blog-title">{{@blog.title}}</h1>
-            <h4 class="blog-description">{{@blog.description}}</h4>
-        </div>
-    </div>
-</header>
+        {{! Archives has the blog logo at the top, with a link back to the home page }}
+        <header class="post-header">
+            <a id="blog-logo" href="{{@blog.url}}">
+                {{#if @blog.logo}}
+                    <img src="{{@blog.logo}}" alt="Blog Logo" />
+                {{else}}
+                    {{@blog.title}}
+                {{/if}}
+            </a>
+        </header>
 
 <main class="content" role="main">
-    <div id="content" class="content col-sm-12 col-md-12 col-lg-12">
-        <article class="archives">
-            <section class="archives-content">
-                <span class="archives-top"></span>
-                <span class="archives-total">
-                    {{! count posts }}
-                    {{#get "posts" as |posts postPages|}}
-                        {{! Use our pages (pagination) object }}
-                        <strong>
-                            {{plural postPages.total empty=(t "No posts") singular=(t "A collection of 1 post") plural=(t "A collection of % posts")}}
-                        </strong>
-                    {{/get}}
-                </span>
-                {{#get "posts" limit="all" order="published_at desc"}}
-                    {{#foreach posts}}
-                    <div class='archives-item' date="{{date format='YYYY'}}" data-anijs="if: scroll, on: window, do: fadeInDown animated, before: scrollReveal">
-                        <div class='archives-info'>
-                            <div class="archives-info-meta">
-                                <i class='fa fa-calendar fa-fw' aria-hidden='true'></i>
-                                <time class="archives-date" datetime="{{date published_at format='MM-DD'}}">{{date published_at format="MM-DD"}}</time>
-                                <a href='{{url}}'>{{title}}</a>
-                            </div>
+    <article class="archives">
+        <section class="archives-content">
+            <span class="archives-top"></span>
+            <span class="archives-total">
+                {{! count posts }}
+                {{#get "posts" as |posts postPages|}}
+                    {{! Use our pages (pagination) object }}
+                    <strong>
+                        {{plural postPages.total empty=(t "No posts") singular=(t "A collection of 1 post") plural=(t "A collection of % posts")}}
+                    </strong>
+                {{/get}}
+            </span>
+            {{#get "posts" limit="all" order="published_at desc"}}
+                {{#foreach posts}}
+                <div class='archives-item' date="{{date format='YYYY'}}" data-anijs="if: scroll, on: window, do: fadeInDown animated, before: scrollReveal">
+                    <div class='archives-info'>
+                        <div class="archives-info-meta">
+                            <i class='fa fa-calendar fa-fw' aria-hidden='true'></i>
+                            <time class="archives-date" datetime="{{date published_at format='MM-DD'}}">{{date published_at format="MM-DD"}}</time>
+                            <a href='{{url}}'>{{title}}</a>
                         </div>
                     </div>
-                    {{/foreach}}
-                {{/get}}
-            </section>
-        </article>
-    <div>
+                </div>
+                {{/foreach}}
+            {{/get}}
+        </section>
+    </article>
 </main>
