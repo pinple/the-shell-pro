@@ -545,7 +545,8 @@ button, input, select, textarea {
   font-family: "Menlo", "Meslo LG", monospace;
   font-size: 1.3rem;
   color: #9EABB3;
-  text-align: center; }
+  text-align: center;
+  display: block; }
   .pagination a {
     color: #9EABB3; }
 
