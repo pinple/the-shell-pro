@@ -341,7 +341,7 @@ button, input, select, textarea {
   overflow: hidden;
   display: block;
   margin: 16.08px auto;
-  border: 5px solid #bf6165; }
+  border: 5px solid #BB80B3; }
   #blog-logo:before {
     width: 100px;
     height: 100px;
@@ -361,9 +361,9 @@ button, input, select, textarea {
     -webkit-transition: background .3s linear;
     -o-transition: background .3s linear;
     transition: background .3s linear;
-    border: 5px solid #bf6165; }
+    border: 5px solid #BB80B3; }
   #blog-logo:hover:before {
-    background: rgba(204, 31, 39, 0.5); }
+    background: #C792EA; }
   #blog-logo img {
     display: block;
     max-height: 90px;
@@ -414,10 +414,10 @@ button, input, select, textarea {
     font-size: 1.5rem;
     color: #5AC8FA; }
   .post a {
-    color: #2bbc8a;
+    color: #FFCB6B;
     text-decoration: none; }
     .post a:hover {
-      color: #5af78e; }
+      color: #FAED70; }
 
 .user-meta {
   position: relative;
@@ -834,3 +834,6 @@ Copyright (c) 2012 Dan Eden
   -moz-animation-name: bounceInDown;
   -o-animation-name: bounceInDown;
   animation-name: bounceInDown; }
+
+.navbar-custom .nav li a:hover {
+  color: #eee; }
