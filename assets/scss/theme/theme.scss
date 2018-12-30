@@ -20,7 +20,7 @@
         overflow: hidden;
         display: block;
         margin: 16.08px auto;
-        border: 5px solid $contessa;
+        border: 5px solid $magenta;
         &:before {  
             width: 100px;
             height: 100px;
@@ -40,10 +40,10 @@
             -webkit-transition: background .3s linear;  
             -o-transition: background .3s linear;  
             transition: background .3s linear;  
-            border: 5px solid $contessa;
+            border: 5px solid $magenta;
         }
         &:hover:before {
-            background: rgba(204,31,39, 0.5);  
+            background: $light-magenta;  
         }
         img {
             display: block;
@@ -107,10 +107,10 @@
         color: #5AC8FA;
     }
      a {
-        color: #2bbc8a;
+        color: #FFCB6B;
         text-decoration: none;
         &:hover {
-            color: #5af78e;
+            color: #FAED70;
         }
     }
 }
