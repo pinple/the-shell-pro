@@ -1,0 +1,17 @@
+/* ==========================================================================
+   5. Single Post - When you click on an individual post
+   ========================================================================== */
+.page {
+    &-template .post {
+        margin-top: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+        overflow-y: -webkit-paged-y;
+        &:after {
+            display: none;
+        }
+        &-header {
+            padding: 60px 0;
+        }
+    }
+}

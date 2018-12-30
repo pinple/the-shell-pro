@@ -43,7 +43,7 @@
             border: 5px solid $magenta;
         }
         &:hover:before {
-            background: $light-magenta;  
+            background: rgba(199, 146, 234, 0.5);  
         }
         img {
             display: block;
@@ -88,11 +88,19 @@
     border-bottom: $border 1px solid;
     word-break: break-word;
     hyphens: auto;
+    a {
+        color: #2bbc8a;
+        text-decoration: none;
+        &:hover {
+            color: #5af78e;
+        }
+    }
     &-title {
         margin:0;
-        color: $heading;
-        a {
-            text-decoration: none;
+        color: #2bbc8a;
+        text-decoration: none;
+        &:hover {
+            color: #5af78e;
         }
     }
     &-excerpt p {
@@ -105,12 +113,12 @@
         margin: 0 0 5px 0;
         font-size: 1.5rem;
         color: #5AC8FA;
-    }
-     a {
-        color: #FFCB6B;
-        text-decoration: none;
-        &:hover {
-            color: #FAED70;
+        a {
+            color: #FFCB6B;
+            text-decoration: none;
+            &:hover {
+                color: #FAED70;
+            }
         }
     }
 }

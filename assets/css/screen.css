@@ -363,7 +363,7 @@ button, input, select, textarea {
     transition: background .3s linear;
     border: 5px solid #BB80B3; }
   #blog-logo:hover:before {
-    background: #C792EA; }
+    background: rgba(199, 146, 234, 0.5); }
   #blog-logo img {
     display: block;
     max-height: 90px;
@@ -399,11 +399,17 @@ button, input, select, textarea {
   border-bottom: #424650 1px solid;
   word-break: break-word;
   hyphens: auto; }
+  .post a {
+    color: #2bbc8a;
+    text-decoration: none; }
+    .post a:hover {
+      color: #5af78e; }
   .post-title {
     margin: 0;
-    color: #2bbc8a; }
-    .post-title a {
-      text-decoration: none; }
+    color: #2bbc8a;
+    text-decoration: none; }
+    .post-title:hover {
+      color: #5af78e; }
   .post-excerpt p {
     margin: 1.6rem 0 0 0;
     font-size: 1.4rem;
@@ -413,11 +419,11 @@ button, input, select, textarea {
     margin: 0 0 5px 0;
     font-size: 1.5rem;
     color: #5AC8FA; }
-  .post a {
-    color: #FFCB6B;
-    text-decoration: none; }
-    .post a:hover {
-      color: #FAED70; }
+    .post-meta a {
+      color: #FFCB6B;
+      text-decoration: none; }
+      .post-meta a:hover {
+        color: #FAED70; }
 
 .user-meta {
   position: relative;
@@ -454,6 +460,19 @@ button, input, select, textarea {
   display: block;
   font-size: 1.4rem;
   line-height: 1.5em; }
+
+/* ==========================================================================
+   5. Single Post - When you click on an individual post
+   ========================================================================== */
+.page-template .post {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+  overflow-y: -webkit-paged-y; }
+  .page-template .post:after {
+    display: none; }
+  .page-template .post-header {
+    padding: 60px 0; }
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
