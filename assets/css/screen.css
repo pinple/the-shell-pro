@@ -471,6 +471,9 @@ button, input, select, textarea {
 .post-header #blog-logo:before {
   margin: 76.08px auto; }
 
+.post-content {
+  margin: 3rem 0 0 0; }
+
 .post-content img {
   display: block;
   max-width: 100%;
