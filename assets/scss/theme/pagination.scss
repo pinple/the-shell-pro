@@ -24,6 +24,7 @@
     display: inline-block;
     padding: 0 15px;
     border: $border 1px solid;
+    outline:none;
     text-decoration: none;
     border-radius: 5px;
     transition: border ease 0.3s;
@@ -46,5 +47,6 @@
 .older-posts:hover,
 .newer-posts:hover {
     border-color: #9EABB3;
+    outline:none;
     text-decoration: none;
 }

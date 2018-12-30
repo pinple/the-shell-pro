@@ -27,6 +27,7 @@
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
+  outline: none;
   text-decoration: none; }
 
 .icon-ghost-text {
@@ -57,6 +58,7 @@
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
+  outline: none;
   text-decoration: none; }
 
 .icomoon-zhihu:before {
@@ -93,8 +95,8 @@ body {
   background: #2b303b; }
 
 ::selection {
-  color: #1c212b;
-  background: #a3be8c;
+  color: #fff;
+  background: rgba(161, 168, 243, 0.9);
   text-shadow: none; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -148,7 +150,7 @@ a {
   color: #bf6165;
   transition: color ease 0.3s; }
   a:hover {
-    color: #a3be8c; }
+    color: rgba(161, 168, 243, 0.9); }
 
 p, ul, ol {
   font-size: 1.4rem;
@@ -401,12 +403,14 @@ button, input, select, textarea {
   hyphens: auto; }
   .post a {
     color: #2bbc8a;
+    outline: none;
     text-decoration: none; }
     .post a:hover {
       color: #5af78e; }
   .post-title {
     margin: 0;
     color: #2bbc8a;
+    outline: none;
     text-decoration: none; }
     .post-title:hover {
       color: #5af78e; }
@@ -421,6 +425,7 @@ button, input, select, textarea {
     color: #5AC8FA; }
     .post-meta a {
       color: #FFCB6B;
+      outline: none;
       text-decoration: none; }
       .post-meta a:hover {
         color: #FAED70; }
@@ -551,6 +556,7 @@ button, input, select, textarea {
   display: inline-block;
   padding: 0 15px;
   border: #424650 1px solid;
+  outline: none;
   text-decoration: none;
   border-radius: 5px;
   transition: border ease 0.3s;
@@ -569,6 +575,7 @@ button, input, select, textarea {
 .older-posts:hover,
 .newer-posts:hover {
   border-color: #9EABB3;
+  outline: none;
   text-decoration: none; }
 
 /* ==========================================================================
@@ -586,6 +593,7 @@ button, input, select, textarea {
   background: #1c212b; }
   .site-footer a {
     color: #BBC7CC;
+    outline: none;
     text-decoration: underline; }
     .site-footer a::hover {
       color: #50585D; }
@@ -593,8 +601,10 @@ button, input, select, textarea {
 .poweredby .icon-ghost {
   color: #bf6165;
   font-weight: 700;
+  outline: none;
   text-decoration: none; }
   .poweredby .icon-ghost:hover {
+    outline: none;
     text-decoration: none; }
   .poweredby .icon-ghost:before {
     font-size: 1rem;

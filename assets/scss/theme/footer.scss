@@ -11,9 +11,10 @@
     line-height: 1.7em;
     color: #BBC7CC;
     text-align: center;
-    background: $selection-text-and-header-background;
+    background: #1c212b;
     a {
         color: #BBC7CC;
+        outline:none;
         text-decoration: underline;
         &::hover {
             color: #50585D;
@@ -25,8 +26,10 @@
     .icon-ghost {
         color: $contessa;
         font-weight: 700;
+        outline:none;
         text-decoration: none;
         &:hover {
+            outline:none;
             text-decoration: none;
         }
         &:before {

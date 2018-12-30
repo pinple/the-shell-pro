@@ -9,7 +9,7 @@
     margin-bottom: 5rem;
     text-align: center;
     color: #a0add5;
-    background: $selection-text-and-header-background no-repeat center center;
+    background: #1c212b no-repeat center center;
     background-size: cover;
 }
 
@@ -90,6 +90,7 @@
     hyphens: auto;
     a {
         color: #2bbc8a;
+        outline:none;
         text-decoration: none;
         &:hover {
             color: #5af78e;
@@ -98,6 +99,7 @@
     &-title {
         margin:0;
         color: #2bbc8a;
+        outline:none;
         text-decoration: none;
         &:hover {
             color: #5af78e;
@@ -115,6 +117,7 @@
         color: #5AC8FA;
         a {
             color: #FFCB6B;
+            outline:none;
             text-decoration: none;
             &:hover {
                 color: #FAED70;
