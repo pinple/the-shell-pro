@@ -900,7 +900,7 @@ Copyright (c) 2012 Dan Eden
 
 .archives .archives-top {
   position: absolute;
-  top: 50px;
+  top: 19px;
   width: 10px;
   height: 10px;
   margin-left: -1px;
@@ -931,7 +931,7 @@ Copyright (c) 2012 Dan Eden
   width: 10px;
   height: 10px;
   margin-left: -1px;
-  margin-top: 8px;
+  margin-top: 6px;
   background: #555;
   opacity: 0.5;
   border: 1px solid #fff;
