@@ -42,7 +42,7 @@
 }
 .archives .archives-item {
     position: relative;
-    margin: 30px 0;
+    margin: 1.6rem 0;
     overflow: hidden;
     z-index: 2;
 }
@@ -96,16 +96,14 @@
 }
 .archives-info .archives-info-meta:hover {
     border-bottom: 1px dashed #2C3F51;
-}
-.archives-info .archives-info-meta:hover::before {
-    background: #009a61;
+    color: #5af78e;
 }
 .archives-info .archives-info-meta a {
-    color: #009a61;
+    color: #2bbc8a;
     text-decoration: none;
 }
 .archives-info time {
     margin-right: 4px;
-    color: #999;
+    color: #5AC8FA;
     display: inline-block;
 }
