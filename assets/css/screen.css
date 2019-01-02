@@ -49,7 +49,7 @@
 .icon-facebook:before {
   content: "\e004"; }
 
-.icomoon-zhihu, .icomoon-weibo, .icomoon-douban, .icomoon-github {
+.icomoon-zhihu, .icomoon-weibo, .icomoon-douban, .icomoon-github, .icomoon-arrow-up {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -75,6 +75,10 @@
 
 .icomoon-github:before {
   content: "\e903";
+  color: #c3cdd2; }
+
+.icomoon-arrow-up:before {
+  content: "\e904";
   color: #c3cdd2; }
 
 /* ==========================================================================

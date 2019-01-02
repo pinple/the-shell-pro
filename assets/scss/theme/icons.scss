@@ -115,4 +115,11 @@
             color: #c3cdd2;
         }
     }
+    &-arrow-up {
+        @extend %icomoon;
+        &:before {
+            content: "\e904";
+            color: #c3cdd2;
+        }
+    }
 }

@@ -5,23 +5,13 @@
     var $document = $(document);
 
     $document.ready(function() {
-        // $(".scroll-down").arctic_scroll();
 
-        // $(".menu-button, .nav-cover, .nav-close").on("click", function(e) {
-        //     e.preventDefault();
-        //     $("body").toggleClass("nav-opened nav-closed");
-        // });
-
-        // $(window).scroll(function() {
-        //     var scrollerToTop = $('.back-top');
-        //     var scrollerTOC = $('.widget-toc');
-        //     document.documentElement.scrollTop + document.body.scrollTop > 200 ?
-        //         scrollerToTop.fadeIn() :
-        //         scrollerToTop.fadeOut();
-        //     document.documentElement.scrollTop + document.body.scrollTop > 250 ?
-        //         scrollerTOC.addClass("widget-toc-fixed") :
-        //         scrollerTOC.removeClass("widget-toc-fixed");
-		// });
+        $(window).scroll(function() {
+            var scrollerToTop = $('.back-top');
+            document.documentElement.scrollTop + document.body.scrollTop > 200 ?
+                scrollerToTop.fadeIn() :
+                scrollerToTop.fadeOut();
+		});
 		
 		// prettyprint
 		$('pre').addClass('prettyprint');
