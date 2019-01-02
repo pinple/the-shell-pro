@@ -343,7 +343,7 @@ button, input, select, textarea {
   overflow: hidden;
   display: block;
   margin: 16.08px auto;
-  border: 5px solid #BB80B3; }
+  border: 2px solid #BB80B3; }
   #blog-logo:before {
     width: 100px;
     height: 100px;
@@ -363,12 +363,12 @@ button, input, select, textarea {
     -webkit-transition: background .3s linear;
     -o-transition: background .3s linear;
     transition: background .3s linear;
-    border: 5px solid #BB80B3; }
+    border: 2px solid #BB80B3; }
   #blog-logo:hover:before {
     background: rgba(199, 146, 234, 0.5); }
   #blog-logo img {
     display: block;
-    max-height: 90px;
+    max-height: 96px;
     width: auto;
     line-height: 0;
     border-radius: 50%; }
@@ -912,7 +912,8 @@ Copyright (c) 2012 Dan Eden
 .archives .archives-total {
   position: relative;
   top: 4px;
-  left: 20px; }
+  left: 20px;
+  font-size: 16px; }
 
 .archives .archives-item {
   position: relative;
@@ -969,7 +970,9 @@ Copyright (c) 2012 Dan Eden
   transition-property: background; }
 
 .archives-info .archives-info-meta:hover {
-  border-bottom: 1px dashed #2C3F51;
+  border-bottom: 1px dashed #2C3F51; }
+
+.archives-info .archives-info-meta a:hover {
   color: #5af78e; }
 
 .archives-info .archives-info-meta a {

@@ -39,6 +39,7 @@
     position: relative;
     top: 4px;
     left: 20px;
+    font-size: 16px;
 }
 .archives .archives-item {
     position: relative;
@@ -94,9 +95,15 @@
     transition-delay: 0s;
     transition-property: background;
 }
-.archives-info .archives-info-meta:hover {
-    border-bottom: 1px dashed #2C3F51;
-    color: #5af78e;
+.archives-info .archives-info-meta {
+    &:hover {
+        border-bottom: 1px dashed #2C3F51;
+    }
+    a {
+        &:hover {
+            color: #5af78e;
+        }
+    }
 }
 .archives-info .archives-info-meta a {
     color: #2bbc8a;
