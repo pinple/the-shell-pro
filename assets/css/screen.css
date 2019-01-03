@@ -327,6 +327,47 @@ button, input, select, textarea {
   display: table-cell;
   vertical-align: middle; }
 
+/*back to top*/
+.back-top {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 999;
+  width: 56px;
+  display: none; }
+
+.back-top:focus,
+.back-top .btn:focus,
+.back-top .btn:active:focus {
+  outline: none; }
+
+.back-top .btn {
+  margin-top: 2px;
+  height: 56px;
+  display: block;
+  padding: 0;
+  width: 100%;
+  opacity: .4; }
+
+.btn-inverse {
+  background: #666;
+  color: #FFF !important; }
+
+.btn-minty {
+  background: #009a61; }
+
+.back-top .btn:hover {
+  background: #009a61;
+  opacity: .9;
+  color: #FFF !important; }
+
+.back-top .btn:active {
+  opacity: .6; }
+
+.back-top .btn i {
+  position: relative;
+  top: -1px; }
+
 /* ==========================================================================
    4. General - The main styles for the the theme
    ========================================================================== */
@@ -347,7 +388,7 @@ button, input, select, textarea {
   overflow: hidden;
   display: block;
   margin: 16.08px auto;
-  border: 2px solid #BB80B3; }
+  border: 2px solid #a874e4; }
   #blog-logo:before {
     width: 100px;
     height: 100px;
@@ -367,7 +408,7 @@ button, input, select, textarea {
     -webkit-transition: background .3s linear;
     -o-transition: background .3s linear;
     transition: background .3s linear;
-    border: 2px solid #BB80B3; }
+    border: 2px solid #a874e4; }
   #blog-logo:hover:before {
     background: rgba(199, 146, 234, 0.5); }
   #blog-logo img {

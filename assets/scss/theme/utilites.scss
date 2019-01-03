@@ -22,3 +22,45 @@
     display: table-cell;
     vertical-align: middle;
 }
+
+/*back to top*/
+.back-top {
+    position: fixed;
+    right: 28px;
+    bottom: 28px;
+    z-index: 999;
+    width: 56px;
+    display: none;
+}
+.back-top:focus,
+.back-top .btn:focus,
+.back-top .btn:active:focus {
+    outline: none;
+}
+.back-top .btn {
+    margin-top: 2px;
+    height: 56px;
+    display: block;
+    padding: 0;
+    width: 100%;
+    opacity: .4;
+}
+.btn-inverse {
+    background: #666;
+    color: #FFF !important;
+}
+.btn-minty {
+    background: #009a61;
+}
+.back-top .btn:hover {
+    background: #009a61;
+    opacity: .9;
+    color: #FFF !important;
+}
+.back-top .btn:active {
+    opacity: .6;
+}
+.back-top .btn i {
+    position: relative;
+    top: -1px;
+}
