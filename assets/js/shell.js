@@ -43,6 +43,17 @@
                 "</div></div>";
             $("[date='" + uniqueYear[i] + "']:first").before(html);
         }
+
+        // social section
+        if (social_accounts) {
+            for (var i; i< social_accounts.length; i++){
+                var social_sitename = social_accounts[i].site_name;
+                var social_url = social_accounts[i].user_url;
+                console.log(social_sitename + ' ' + social_url);
+                var social_a = document.createElement('a'); social_a.className = 'icomoon-' + social_sitename; social_a.href = social_url; social_a.target="_blank";
+                document.getElementsByClassName('social')[0].appendChild(social_a);
+            }
+        }
     });
 })(jQuery);
 

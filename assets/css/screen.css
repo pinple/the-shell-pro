@@ -605,7 +605,7 @@ pre:hover .copy-btn, pre .copy-btn:hover {
     .post-footer .social a {
       font-size: 1.8rem;
       display: inline-block;
-      margin: 1.4rem 0 1.6rem 0;
+      margin: 1.4rem 1rem 1.6rem 0;
       color: #BBC7CC; }
       .post-footer .social a:hover {
         color: #50585D; }
