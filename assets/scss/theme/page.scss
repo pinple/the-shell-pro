@@ -6,7 +6,7 @@
         margin-top: 0;
         border-bottom: none;
         padding-bottom: 0;
-        overflow-y: -webkit-paged-y;
+        overflow-y: hidden;
         &:after {
             display: none;
         }

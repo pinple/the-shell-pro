@@ -65,3 +65,43 @@
     position: relative;
     top: -1px;
 }
+
+/*copy to clipboard*/
+.clippy {
+    margin-top: -3px;
+    position: relative;
+}
+
+.copy-btn[disabled] .clippy {
+    opacity: .3;
+}
+
+pre {
+    position: relative;
+    overflow: visible
+}
+
+.copy-btn {
+    -webkit-transition:opacity .3s ease-in-out;
+    -o-transition:opacity .3s ease-in-out;
+    transition:opacity .3s ease-in-out;
+    opacity: 0;
+    padding: 6px 12px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 4px;
+    outline: none;
+    background: #666;
+    &:hover {
+        border-color: #51a7e8;
+    }
+}
+pre:hover .copy-btn, pre .copy-btn:hover {
+    opacity: 0.4;
+}
+@media screen and (max-width:768px) {
+    pre .copy-btn {
+        opacity: 0.4;
+    }
+}

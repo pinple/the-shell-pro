@@ -13,14 +13,10 @@
                 scrollerToTop.fadeOut();
 		});
 		
-
         // #back-top Button Event
         $("#backTop").on("click", function() {
             scrollToTop();
         });
-
-        // highlight config
-        hljs.initHighlightingOnLoad();
 
         // add archives year
         var yearArray = new Array();
