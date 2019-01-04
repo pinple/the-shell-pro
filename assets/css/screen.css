@@ -856,7 +856,7 @@ pre:hover .copy-btn, pre .copy-btn:hover {
    ========================================================================== */
 @media only screen and (max-width: 500px) {
   #blog-logo img {
-    max-height: 70px; }
+    max-height: 76px; }
   #blog-logo {
     width: 80px; }
   #blog-logo:before {
