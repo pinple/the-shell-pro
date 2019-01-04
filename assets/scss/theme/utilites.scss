@@ -44,16 +44,17 @@
     padding: 0;
     width: 100%;
     opacity: .4;
+    border-radius: 4px;
 }
 .btn-inverse {
     background: #666;
     color: #FFF !important;
 }
 .btn-minty {
-    background: #009a61;
+    background: #2bbc8a;
 }
 .back-top .btn:hover {
-    background: #009a61;
+    background: #2bbc8a;
     opacity: .9;
     color: #FFF !important;
 }

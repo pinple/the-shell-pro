@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="{{asset "highlighter/prettify.css"}}" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/monokai-sublime.min.css" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -61,7 +61,8 @@
     {{ghost_foot}}
 
     {{! Scripts }}
-    <script type='text/javascript' src="{{asset 'highlighter/prettify.js'}}"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
     <script type='text/javascript' src="{{asset '/js/shell.js'}}"></script>
 </body>
 </html>
