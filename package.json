@@ -1,6 +1,6 @@
 {
     "name": "the-shell",
-    "description": "Theme for Ghost. Pure CSS. Web Safe fonts.",
+    "description": "Dark theme for Ghost, the schema of colors is similar to dracula code theme.",
     "demo": "https://demo.ghost.io",
     "version": "0.0.1",
     "engines": {
