@@ -1,7 +1,7 @@
 {
     "name": "the-shell",
     "description": "Dark theme for Ghost, the schema of colors is similar to dracula code theme.",
-    "demo": "https://demo.ghost.io",
+    "demo": "http://ghost.neulana.com/",
     "version": "0.0.1",
     "engines": {
         "ghost": ">=0.4.0 <1.0.0"
