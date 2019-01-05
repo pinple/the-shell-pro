@@ -4,13 +4,13 @@
 
 # the-shell-pro
 
-一款简约的ghost主题，大胆的用色，献给同样追求小众、喜欢暗黑风格的你❤️
+一款简约的ghost主题，大胆的用色，献给同样追求小众、喜欢极客暗夜风格的你❤️
 
 # 预览
 
 <p align="center"><img src="./assets/imgs/preview.jpg" alt=""></p>
 
-[Demo](http://blog.neulana.com:2368/)
+体验请点击[Demo](http://blog.neulana.com:2368/)
 
 # 特性
 
@@ -32,7 +32,7 @@
 
 ## 基础
 
-克隆代码到**themes/**目录下：
+克隆代码到**themes**目录下：
 
 ```bash
 git clone https://github.com/Neulana/the-shell-pro.git
@@ -94,7 +94,7 @@ ghost后台 > `Design` > `Active the-shell-pro theme`
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/solarized-dark.min.css" />
 ```
 
-## Credit
+# Credit
 
 This theme is inspired by [The-Shell](https://github.com/mityalebedev/The-Shell)
 
