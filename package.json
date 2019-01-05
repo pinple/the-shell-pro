@@ -1,10 +1,10 @@
 {
-    "name": "the-shell",
+    "name": "the-shell-pro",
     "description": "Dark theme for Ghost, the schema of colors is similar to dracula code theme.",
     "demo": "http://ghost.neulana.com/",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
-        "ghost": ">=0.4.0 <1.0.0"
+        "ghost": ">=0.4.0"
     },
     "license": "GPL-3.0",
     "screenshots": {
