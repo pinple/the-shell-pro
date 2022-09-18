@@ -35,7 +35,7 @@
     "contributors": "https://github.com/Neulana/the-shell-pro/graphs/contributors",
     "devDependencies": {
         "gulp": "^4.0.0",
-        "gulp-sass": "^4.0.2",
-        "node-sass": "^4.13.1"
+        "gulp-sass": "^5.1.0",
+        "node-sass": "^7.0.3"
     }
 }
